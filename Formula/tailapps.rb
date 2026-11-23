@@ -2,27 +2,27 @@
 class Tailapps < Formula
   desc "Send to and listen on your TailApps apps from any machine"
   homepage "https://tailapps.com"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://dl.tailapps.com/cli/v0.3.0/tailapps_darwin_arm64.tar.gz"
-      sha256 "21fd6249c22b8a8c6850e2573b4bc78aa577d55666f166039acde1b57cec4e9e"
+      url "https://dl.tailapps.com/cli/v0.4.0/tailapps_darwin_arm64.tar.gz"
+      sha256 "e93c7de447427801c205bb835e6a6cb1bd37ac0a81ef578c513732f7dea3b719"
     end
     on_intel do
-      url "https://dl.tailapps.com/cli/v0.3.0/tailapps_darwin_amd64.tar.gz"
-      sha256 "fae45bf6d5c3d86e13f09221ddef7e9c0ae59625d6959412ad8a601eec50677d"
+      url "https://dl.tailapps.com/cli/v0.4.0/tailapps_darwin_amd64.tar.gz"
+      sha256 "fdb41f63aa737cf87c8803e74d580e25055ab90d0addc2039a25ac44cbb1b32f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.tailapps.com/cli/v0.3.0/tailapps_linux_arm64.tar.gz"
-      sha256 "8d9b77d7b12c505b803d1fb206304e81c54c9f674c705b0a1fb02920a1d2ba4a"
+      url "https://dl.tailapps.com/cli/v0.4.0/tailapps_linux_arm64.tar.gz"
+      sha256 "8bbc7a84d1cfa5bcca598cbcc146bb5948623f5ba31d35a2d26a0cf21f2df4a3"
     end
     on_intel do
-      url "https://dl.tailapps.com/cli/v0.3.0/tailapps_linux_amd64.tar.gz"
-      sha256 "cd6b4243e76adde39c3af89d94aa2c27660d3c60be5e9976b02e4cd2e835cd63"
+      url "https://dl.tailapps.com/cli/v0.4.0/tailapps_linux_amd64.tar.gz"
+      sha256 "c17417b640f8656d0bbc8b2c4d46102d4492ed9dcd8423009abc067b29fd9f2e"
     end
   end
 
